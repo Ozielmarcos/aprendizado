@@ -14,10 +14,10 @@ let colecao_signos = [
     { nome: 'Capricórnio', dataInicio: '12/22', dataFim: '01/19' }
 ]
 
-const retornaSignos = (signos, data) => {
+const retornaSignos = (signos, inputData) => {
 
-
-    let ano = data.getFullYear();
+    inputData = document.getElementById('recebe-data');
+    let ano = inputData.getFullYear();
 
     for (let signo of signos) {
 
