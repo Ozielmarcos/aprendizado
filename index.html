@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra seu Signo</title>
+    <link rel="stylesheet" href="./estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/logo.jpg" alt="">
+        <h1 class="titulo">Signos</h1>
+    </header>
+
+    <main>
+
+        <div class="card" id="box-card">
+
+            <div class="card-container">
+
+                <h3 id="signo">AQUÁRIO</h3>
+                <div class="div-img"><img id="img-signo" src="./assets/Aquario.jpg"></div>
+
+
+            </div>
+
+            <button class="botao" id="btn2" onclick="retornaSignos()">Voltar</button>
+
+        </div>
+
+        <div id="requisicao">
+
+            <div class="box">
+                <h2>Descubra seu Signo</h2>
+                <input type="date" id="recebe-data" required>
+                <button class="botao" id="btn1" onclick="retornaSignos()">Mostrar</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>Desenvolvido por Oziel Marcos </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
