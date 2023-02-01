@@ -11,5 +11,24 @@ body {
 
 .limita-secao {
   max-width: 1024px;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+  .limita-secao {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .limita-secao {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .limita-secao {
+    padding: 0 20px;
+  }
 }
