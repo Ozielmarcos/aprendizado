@@ -20,7 +20,7 @@ body {
     background-color: #000;
     color: #fff;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
     opacity: .8;
     box-shadow: 0 0 10px #7c7c7c6d;
 }
@@ -34,6 +34,7 @@ input {
     font-size: 20px;
     background-color: #7c7c7c2b;
     color: #fff;
+    text-transform: capitalize;
 }
 
 button {
@@ -48,6 +49,7 @@ button {
 
 button:hover {
     background-color: #7c7c7c6b;
+    border: 1px solid #fff;
 }
 
 .box {
@@ -59,6 +61,7 @@ button:hover {
 
 h1 {
     font-size: 25px;
+    font-weight: 500;
 }
 
 .box-nuvens {
@@ -66,4 +69,8 @@ h1 {
     align-items: center;
     text-transform: capitalize;
     gap: 15px;
+}
+
+.material-symbols-outlined {
+    color: #fff;
 }

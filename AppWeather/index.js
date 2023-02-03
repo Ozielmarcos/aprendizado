@@ -1,8 +1,17 @@
 
 let chave = "c800977a0a8d2c756dbb8fdb3e5f4e1e";
 
+document.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+
+        const btn = document.querySelector(".botao");
+
+        btn.click();
+
+    }
+})
+
 function colocarNaTela(dados) {
-    console.log(dados)
 
     document.querySelector(".nomeCidade").innerHTML = 'Tempo em ' + dados.name;
     document.querySelector(".temperatura").innerHTML = Math.floor(dados.main.temp) + "°C";
