@@ -1,0 +1,65 @@
+.container-card {
+    max-width: 1024px;
+    padding: 20px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.tema-claro {
+    border: 1px solid #edecec;
+}
+
+.tema-claro p {
+    color: #8a8fa3;
+    padding: 5px 0;
+}
+
+.tema-claro .titulo {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.tema-dark .titulo {
+    font-size: 1.3em;
+    color: #32333c;
+}
+
+.tema-dark {
+    border: 1px solid #ffffff0d;
+}
+
+.tema-dark p {
+    color: 9f9f9f;
+}
+
+
+
+#card {
+    padding: 40px 20px;
+    text-align: left;
+
+}
+
+#card:hover {
+    background: #feb633;
+}
+
+.paragrafo {
+    margin-top: 20px;
+    font-size: .9rem;
+}
+
+@media (max-width: 375px) {
+    .container-card {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .container-card {
+        display: block;
+    }
+}

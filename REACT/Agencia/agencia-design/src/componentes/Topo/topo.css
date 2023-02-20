@@ -1,0 +1,55 @@
+.dark {
+    background-color: #252525;
+}
+
+.claro {
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    /* background-color: #fff; */
+}
+
+.btn-claro {
+    border: 2px solid #747272;
+}
+
+.btn-dark {
+    border: 2px solid #fff;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img {
+    width: 20px;
+}
+
+@media (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        width: 100%;
+    }
+}
